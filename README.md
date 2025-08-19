@@ -24,6 +24,7 @@ They demonstrate real-world layout techniques: hero areas, responsive card grids
 
 ### 🔹 Portfolio 01 — Clean Personal Portfolio
 **Live:** https://pr-1-bootstrap-shivam-portfolio-01.vercel.app/  
+**Code:** https://github.com/Dev-Shivam-05/PR-1-Bootstrap-Shivam-Portfolio-01.git       
 **Why it’s cool**
 - Minimal hero with CTA and intro
 - Project cards with hover states
@@ -36,6 +37,7 @@ They demonstrate real-world layout techniques: hero areas, responsive card grids
 
 ### 🔸 Portfolio 02 — Agency / Studio Style
 **Live:** https://pr-2-bootstrap-shivam-portfolio-02.vercel.app/  
+**Code:** https://github.com/Dev-Shivam-05/PR-2-Bootstrap-Shivam-Portfolio-02.git     
 **Why it’s cool**
 - Split hero layout (visual + content)
 - Services and featured work sections
@@ -55,7 +57,7 @@ They demonstrate real-world layout techniques: hero areas, responsive card grids
 
 ---
 
-## 📦 Project structure (suggested)
+## 📦 Project structure
 ```
 root/
 ├── project-1-portfolio-01/
@@ -73,7 +75,7 @@ root/
 
 ---
 
-## 🧩 How to run locally (3 seconds)
+## 🧩 How to run locally
 1. Clone:
 ```bash
 git clone https://github.com/Dev-Shivam-05/<this-repo>.git
