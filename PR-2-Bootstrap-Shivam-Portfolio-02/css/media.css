@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+  .blog{
+    height: 100vh;
+    height: auto;
+  }
+  .blog-body {
+    float: none;
+  }
+}

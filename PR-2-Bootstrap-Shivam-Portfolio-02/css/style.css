@@ -1,0 +1,164 @@
+:root {
+  --theme-yellow: #f8ca29;
+  --theme-dark: #292929;
+  --theme-orange: #fa7e23;
+  --theme-light-grey: #f9f9f9;
+}
+.text-yellow {
+  color: var(--theme-yellow);
+}
+.text-darks {
+  color: var(--theme-dark);
+}
+.text-orange {
+  color: var(--theme-orange);
+}
+.text-grey {
+  color: var(--theme-light-grey);
+}
+
+.bg-yellow {
+  background: var(--theme-yellow);
+}
+.bg-darks {
+  background: var(--theme-dark);
+}
+.bg-orange {
+  background: var(--theme-orange);
+}
+.bg-grey {
+  background: var(--theme-light-grey);
+}
+
+.divider {
+  height: 100px;
+}
+
+/* Button Classes Starts */
+.btn-dark-yellow,
+.btn-white-yellow,
+.btn-orange-dark,
+.btn-transparent-yellow {
+  transition: all 0.5s ease;
+}
+.btn-dark-yellow:hover {
+  background: var(--theme-yellow);
+  color: var(--theme-light-grey);
+}
+.btn-white-yellow:hover {
+  background: var(--theme-yellow);
+  color: var(--theme-light-grey);
+}
+.btn-orange-dark:hover {
+  background: var(--theme-dark);
+  color: var(--theme-light-grey);
+}
+.btn-transparent-yellow:hover {
+  background: var(--theme-yellow);
+  color: var(--theme-light-grey);
+}
+/* Button Classes Ends */
+
+/* Header Section Starts */
+header .navbar .nav-item .nav-link {
+  transition: all 0.4s ease !important;
+}
+header .navbar .nav-item:hover .nav-link {
+  color: var(--theme-yellow) !important;
+}
+/* Header Section Ends */
+
+/* Hero's Section Starts */
+.home {
+  width: 100%;
+  float: left;
+  background-image: url(../assets/images/hero-bg-image.png);
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* Hero's Section Ends */
+
+/* Services Section Starts */
+.services .services-header h2 span::after,
+.portfolio .portfolio-header h2 span::after,
+.contact .contact-header h2 span::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background: var(--theme-dark);
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.services .services-body .box h6 {
+  transition: all 0.7s ease;
+}
+
+.services .services-body .box .app-icon .bi {
+  transition: all 0.2s ease;
+}
+.services .services-body .box:hover .app-icon .bi,
+.services .services-body .box:hover h6 {
+  color: var(--theme-yellow) !important;
+}
+/* Services Section Ends */
+
+/* Portfolio Section Starts */
+.portfolio .portfolio-body .image .overlay,
+.portfolio .portfolio-body .image .overlay a {
+  transition: all 0.4s !important;
+}
+.portfolio .portfolio-body .image:hover .overlay {
+  opacity: 1 !important;
+}
+.portfolio .portfolio-body .image .overlay a:hover {
+  background: var(--theme-yellow);
+  color: var(--theme-light-grey);
+}
+/* Portfolio Section Ends */
+
+/* Blog Section Starts */
+.blog {
+  background-image: url(../assets/images/blog-bg-image);
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  padding: 100px 0 !important;
+}
+.blog .blog-header h2 span::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background: var(--theme-light-grey);
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.blog-section-2 {
+  top: 75% !important;
+}
+.blog-button {
+  transition: all 0.4s ease !important;
+}
+.blog-button:hover {
+  background: var(--theme-yellow);
+  color: var(--theme-light-grey);
+  padding: 20px 40px;
+}
+/* Blog Section Ends */
+
+/* Footer Starts */
+footer .footer-content .social-links li,
+footer .footer-content .social-links li a .bi {
+  transition: all 0.5s ease;
+}
+footer .footer-content .social-links li:hover {
+  background: var(--theme-light-grey);
+}
+footer .footer-content .social-links li:hover a .bi {
+  color: var(--theme-dark);
+}
+/* Footer Ends */

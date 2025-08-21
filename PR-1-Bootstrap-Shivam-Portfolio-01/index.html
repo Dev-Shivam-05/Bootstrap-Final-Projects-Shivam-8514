@@ -1,0 +1,1748 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SnapFolio Web By Shivam</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Font Css -->
+    <link
+      rel="stylesheet"
+      href="./assest/Roboto/stylesheet.css"
+      type="text/css"
+    />
+    <!-- bootstrap icon css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap Css v5.4 -->
+    <link
+      rel="stylesheet"
+      href="./assest/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <!-- Style Css -->
+    <link rel="stylesheet" href="./assest/css/style.css" type="text/css" />
+    <!-- Media Css -->
+    <link rel="stylesheet" href="./assest/css/media.css" type="text/css" />
+  </head>
+
+  <body>
+    <!-- Header Start -->
+    <header
+      class="d-flex flex-column justify-content-center position-fixed top-0 start-0 bottom-0 p-3 overflow-y-auto"
+      data-bs-theme="dark"
+      style="z-index: 997"
+    >
+      <button
+        type="button"
+        class="navbar-toggler position-fixed top-0 end-0 bg-secondary-subtle m-2 rounded-circle p-2 d-xl-none"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#navbaroffcanvas"
+        style="z-index: 9999"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="offcanvas-xl offcanvas-start text-bg-dark rounded-5 d-xl-block"
+        tabindex="-1"
+        data-bs-scroll="true"
+        data-bs-backdrop="static"
+        id="navbaroffcanvas"
+        style="width: 270px"
+      >
+        <div class="offcanvas-body d-flex flex-column justify-content-center">
+          <nav class="navbar navbar-expand-lg w-100" style="z-index: 9997">
+            <ul class="navbar-nav flex-column flex-grow-1 py-2">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">
+                  <i class="bi bi-house fs-5 me-1"></i>
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  <i class="bi bi-person fs-5 me-1"></i>
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">
+                  <i class="bi bi-file-earmark-text fs-5 me-1"></i>
+                  Resume
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">
+                  <i class="bi bi-images fs-5 me-1"></i>
+                  Portfolio
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">
+                  <i class="bi bi-hdd-stack fs-5 me-1"></i>
+                  Services
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link d-flex"
+                  href="https://github.com/Dev-Shivam-05" target="_blank"
+                  data-bs-toggle="dropdown"
+                >
+                  <i class="bi bi-menu-button-wide fs-5 me-2"></i>
+                  Dropdown
+                  <i
+                    class="bi bi-chevron-down ms-auto toggle-dropdown d-flex align-items-center justify-content-center rounded-circle flex-shrink-0"
+                  ></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="https://github.com/Dev-Shivam-05" target="_blank"
+                      >Dropdown 1</a
+                    >
+                  </li>
+                  <li class="subdropdown">
+                    <a
+                      class="dropdown-item d-flex align-items-center justify-content-center"
+                      href="https://github.com/Dev-Shivam-05" target="_blank"
+                      data-bs-toggle="subdropdown"
+                      ><span>Deep Dropdown</span>
+                      <i
+                        class="bi bi-chevron-down toggle-dropdown ms-auto d-flex align-items-center justify-content-center rounded-circle flex-shrink-0"
+                      ></i
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="https://github.com/Dev-Shivam-05" target="_blank"
+                          >Deep Dropdown 1</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="https://github.com/Dev-Shivam-05" target="_blank"
+                          >Deep Dropdown 2</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="https://github.com/Dev-Shivam-05" target="_blank"
+                          >Deep Dropdown 3</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="https://github.com/Dev-Shivam-05" target="_blank"
+                          >Deep Dropdown 4</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="https://github.com/Dev-Shivam-05" target="_blank"
+                          >Deep Dropdown 5</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://github.com/Dev-Shivam-05" target="_blank"
+                      >Dropdown 2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://github.com/Dev-Shivam-05" target="_blank"
+                      >Dropdown 3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://github.com/Dev-Shivam-05" target="_blank"
+                      >Dropdown 4</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">
+                  <i class="bi bi-envelope fs-5 me-1"></i>
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="social-links text-center pb-2 mb-3">
+            <a
+              href="https://github.com/Dev-Shivam-05" target="_blank"
+              class="d-inline-flex align-items-center justify-content-center text-white rounded-circle text-center"
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+            <a
+              href="https://github.com/Dev-Shivam-05" target="_blank"
+              class="d-inline-flex align-items-center justify-content-center text-white rounded-circle text-center"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a
+              href="https://github.com/Dev-Shivam-05" target="_blank"
+              class="d-inline-flex align-items-center justify-content-center text-white rounded-circle text-center"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a
+              href="https://github.com/Dev-Shivam-05" target="_blank"
+              class="d-inline-flex align-items-center justify-content-center text-white rounded-circle text-center"
+              ><i class="bi bi-skype"></i
+            ></a>
+            <a
+              href="https://github.com/Dev-Shivam-05" target="_blank"
+              class="d-inline-flex align-items-center justify-content-center text-white rounded-circle text-center"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Section Start -->
+    <main>
+      <!-- Home Section Start -->
+      <section
+        id="home"
+        class="home position-relative overflow-hidden d-flex align-items-center py-5"
+        style="height: 100vh"
+      >
+        <div class="home-content position-relative w-100 z-2">
+          <div class="container position-relative z-3">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="home-text">
+                  <h1 class="text-white mb-3">
+                    Snap<span class="accent-text">Folio</span>
+                  </h1>
+                  <h2 class="text-white fw-semibold mb-2">Shivam Bhadoriya</h2>
+                  <p class="lead">
+                    I'm a
+                    <span
+                      class="typed"
+                      data-typed-items="Back-End Developer, Web Developer, Fullstack Developer"
+                      >Crea</span
+                    >
+                    <span class="typed-cursor" aria-hidden="true"></span>
+                  </p>
+                  <p class="description mb-5">
+                    Passionate about creating exceptional digital experiences
+                    that blend innovative design with functional development.
+                    Let's bring your vision to life.
+                  </p>
+                  <div class="home-btn d-flex gap-3 mb-5 flex-wrap">
+                    <a
+                      class="btn btn-work rounded-pill fw-bold"
+                      href="https://github.com/Dev-Shivam-05" target="_blank"
+                      >View My Work</a
+                    >
+                    <a
+                      class="btn btn-touch rounded-pill fw-bold"
+                      href="https://github.com/Dev-Shivam-05" target="_blank"
+                      >Get In Touch</a
+                    >
+                  </div>
+                  <div class="social-links d-flex gap-3">
+                    <a
+                      class="d-flex align-items-center justify-content-center rounded-circle"
+                      href="https://github.com/Dev-Shivam-05" target="_blank"
+                      ><i class="bi bi-dribbble"></i
+                    ></a>
+                    <a
+                      class="d-flex align-items-center justify-content-center rounded-circle"
+                      href="https://github.com/Dev-Shivam-05" target="_blank"
+                      ><i class="bi bi-behance"></i
+                    ></a>
+                    <a
+                      class="d-flex align-items-center justify-content-center rounded-circle"
+                      href="https://github.com/Dev-Shivam-05" target="_blank"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a
+                      class="d-flex align-items-center justify-content-center rounded-circle"
+                      href="https://github.com/Dev-Shivam-05" target="_blank"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div
+                  class="home-visual d-flex align-items-center justify-content-center h-100"
+                >
+                  <div class="profile-container position-relative">
+                    <div
+                      class="profile-background position-absolute w-100 h-100 rounded-5 z-1"
+                    ></div>
+                    <img
+                      src="./assest/images/profile-2.webp"
+                      class="position-relative h-100 w-100 rounded-5 z-2 object-fit-cover"
+                      alt="profile-2"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Home Section End -->
+
+      <!-- About Section Start -->
+      <section id="about" class="about py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div
+                class="card profile-card rounded-5 text-center position-relative overflow-hidden mb-5 mb-lg-0"
+              >
+                <div
+                  class="card-header profile-header position-relative border-bottom-0"
+                >
+                  <div class="profile-img rounded-circle overflow-hidden">
+                    <img
+                      src="./assest/images/profile-square-3.webp"
+                      class="img-fluid w-100 h-100 object-fit-cover"
+                      alt="profile-square-3"
+                    />
+                  </div>
+                  <div
+                    class="profile-badge position-absolute rounded-circle d-flex justify-content-center align-items-center"
+                  >
+                    <i class="bi bi-check-circle-fill"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="fs-4 text-white fw-bold mb-2">Marcus Thompson</h3>
+                  <p>Creative Director & Developer</p>
+                  <div class="conatct-links d-flex flex-column gap-3">
+                    <a
+                      href="https://github.com/Dev-Shivam-05" target="_blank"
+                      class="contact-item d-flex align-items-center text-decoration-none"
+                    >
+                      <i class="bi bi-envelope"></i>
+                      marcus@example.com
+                    </a>
+                    <a
+                      href="https://github.com/Dev-Shivam-05" target="_blank"
+                      class="contact-item d-flex align-items-center text-decoration-none"
+                    >
+                      <i class="bi bi-telephone"></i>
+                      +91 9107656786
+                    </a>
+                    <a
+                      href="https://github.com/Dev-Shivam-05" target="_blank"
+                      class="contact-item d-flex align-items-center text-decoration-none"
+                    >
+                      <i class="bi bi-geo-alt"></i>
+                      Surat , Gujarat
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="about-content ps-0 ps-lg-5">
+                <div class="about-header mb-4">
+                  <span class="b-text d-inline-block py-2 px-4 rounded-5 mb-4"
+                    >Get to Know Me</span
+                  >
+                  <h2 class="fw-bold m-0 text-white">
+                    Passionate About Creating Digital Experiences
+                  </h2>
+                </div>
+                <div class="about-body">
+                  <p class="mb-4">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo.
+                  </p>
+                  <p class="mb-4">
+                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                    corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+                    consequatur.
+                  </p>
+                </div>
+                <div class="status-detail">
+                  <div class="row gap-4 gap-md-0">
+                    <div class="col-md-4">
+                      <div class="status-item text-center">
+                        <div class="status-num fw-bold d-block mb-2">150+</div>
+                        <div class="status-label">Projects Completed</div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="status-item text-center">
+                        <div class="status-num fw-bold d-block mb-2">5+</div>
+                        <div class="status-label">Years Experience</div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="status-item text-center">
+                        <div class="status-num fw-bold d-block mb-2">98%</div>
+                        <div class="status-label">Client Satisfaction</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="details">
+                  <div class="row gap-4 gap-sm-0 mb-4">
+                    <div class="col-sm-6">
+                      <div class="detail-item">
+                        <span class="detail-label d-block mb-2"
+                          >Specialization</span
+                        >
+                        <span
+                          class="detail-value d-block fs-6 fw-semibold text-white"
+                          >UI/UX Design & Development</span
+                        >
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="detail-item">
+                        <span class="detail-label d-block mb-2"
+                          >Experience Level</span
+                        >
+                        <span
+                          class="detail-value d-block fs-6 fw-semibold text-white"
+                          >Senior Professional</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row gap-4 gap-sm-0 mb-4">
+                    <div class="col-sm-6">
+                      <div class="detail-item">
+                        <span class="detail-label d-block mb-2">Education</span>
+                        <span
+                          class="detail-value d-block fs-6 fw-semibold text-white"
+                          >Computer Science, MIT</span
+                        >
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="detail-item">
+                        <span class="detail-label d-block mb-2">Languages</span>
+                        <span
+                          class="detail-value d-block fs-6 fw-semibold text-white"
+                          >English, Spanish, French</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="about-btn d-flex flex-wrap gap-3">
+                  <a
+                    class="btn btn-resume text-decoration-none d-inline-flex align-items-center gap-2"
+                    href="https://github.com/Dev-Shivam-05" target="_blank"
+                    ><i class="bi bi-download"></i>Download Resume</a
+                  >
+                  <a
+                    class="btn btn-talk text-decoration-none d-inline-flex align-items-center gap-2"
+                    href="https://github.com/Dev-Shivam-05" target="_blank"
+                    ><i class="bi bi-chat-dots"></i>Let's Talk</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!-- Status Section Start -->
+      <section class="status">
+        <div class="container">
+          <div class="row justify-content-center mx-lg-5">
+            <div class="col-sm-6 col-lg-3">
+              <div
+                class="status-wrapper item1 text-center position-relative overflow-hidden mb-4 mb-lg-0"
+              >
+                <div
+                  class="icon-wrapper rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i class="bi bi-emoji-smile"></i>
+                </div>
+                <span class="d-block fw-bold text-white">232</span>
+                <p class="text-white m-0">Happy Clients</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div
+                class="status-wrapper item2 text-center position-relative overflow-hidden mb-4 mb-lg-0"
+              >
+                <div
+                  class="icon-wrapper rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i class="bi bi-journal-richtext"></i>
+                </div>
+                <span class="d-block fw-bold text-white">521</span>
+                <p class="text-white m-0">Projects</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div
+                class="status-wrapper item3 text-center position-relative overflow-hidden mb-4 mb-lg-0"
+              >
+                <div
+                  class="icon-wrapper rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i class="bi bi-headset"></i>
+                </div>
+                <span class="d-block fw-bold text-white">1463</span>
+                <p class="text-white m-0">Hours Of Support</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div
+                class="status-wrapper item4 text-center position-relative overflow-hidden mb-4 mb-lg-0"
+              >
+                <div
+                  class="icon-wrapper rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i class="bi bi-people"></i>
+                </div>
+                <span class="d-block fw-bold text-white">15</span>
+                <p class="text-white m-0">Hard Workers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Status Section End -->
+
+      <!-- Skill Section Start -->
+      <section class="skill py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="skill-header text-center text-white pb-5">
+                <h2 class="fw-bold position-relative">Skills</h2>
+                <p class="mb-0">
+                  Necessitatibus eius consequatur ex aliquid fuga eum quidem
+                  sint consectetur velit
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row gap-3 gap-lg-0">
+            <div class="col-lg-6">
+              <div class="skill-category h-100 mb-3">
+                <h3 class="position-relative text-white">
+                  Front-end Development
+                </h3>
+                <div class="skill-wrapper">
+                  <div class="skill-item mb-4">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h4 class="fs-6 mb-2 text-white">HTML/CSS</h4>
+                      <span>95%</span>
+                    </div>
+                    <div class="progress overflow-hidden position-relative">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 95%"
+                      ></div>
+                    </div>
+                    <div class="skill-tooltip">
+                      <p>
+                        Expert level knowledge of semantic HTML5 and modern CSS3
+                        techniques
+                      </p>
+                    </div>
+                  </div>
+                  <div class="skill-item mb-4">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h4 class="fs-6 mb-2 text-white">JavaScript</h4>
+                      <span>85%</span>
+                    </div>
+                    <div class="progress overflow-hidden position-relative">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 85%"
+                      ></div>
+                    </div>
+                    <div class="skill-tooltip">
+                      <p>
+                        Strong proficiency in ES6+, DOM manipulation, and modern
+                        frameworks
+                      </p>
+                    </div>
+                  </div>
+                  <div class="skill-item mb-4">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h4 class="fs-6 mb-2 text-white">React</h4>
+                      <span>80%</span>
+                    </div>
+                    <div class="progress overflow-hidden position-relative">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 80%"
+                      ></div>
+                    </div>
+                    <div class="skill-tooltip">
+                      <p>
+                        Experience with React hooks, state management, and
+                        component architecture
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="skill-category h-100">
+                <h3 class="position-relative text-white">
+                  Back-end Development
+                </h3>
+                <div class="skill-wrapper">
+                  <div class="skill-item mb-4">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h4 class="fs-6 mb-2 text-white">Node.js</h4>
+                      <span>75%</span>
+                    </div>
+                    <div class="progress overflow-hidden position-relative">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 75%"
+                      ></div>
+                    </div>
+                    <div class="skill-tooltip">
+                      <p>
+                        Server-side JavaScript development with Express and REST
+                        APIs
+                      </p>
+                    </div>
+                  </div>
+                  <div class="skill-item mb-4">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h4 class="fs-6 mb-2 text-white">Python</h4>
+                      <span>70%</span>
+                    </div>
+                    <div class="progress overflow-hidden position-relative">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 70%"
+                      ></div>
+                    </div>
+                    <div class="skill-tooltip">
+                      <p>
+                        Python development with Django and data analysis tools
+                      </p>
+                    </div>
+                  </div>
+                  <div class="skill-item mb-4">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h4 class="fs-6 mb-2 text-white">SQL</h4>
+                      <span>65%</span>
+                    </div>
+                    <div class="progress overflow-hidden position-relative">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 65%"
+                      ></div>
+                    </div>
+                    <div class="skill-tooltip">
+                      <p>Database design, optimization, and complex queries</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Skill Section End -->
+
+      <!-- Resume Section Start -->
+      <section id="resume" class="resume py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="resume-header text-center text-white pb-5">
+                <h2 class="fw-bold position-relative">Resume</h2>
+                <p class="mb-0">
+                  Magnam dolores commodi suscipit. Necessitatibus eius
+                  consequatur ex aliquid fuga eum quidem. Sit sint consectetur
+                  velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit
+                  suscipit alias ea. Quia fugiat sit in iste officiis commodi
+                  quidem hic quas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="resume-side h-100">
+                <div class="profile-img text-center mb-4">
+                  <img
+                    src="./assest/images/profile-square-2.webp"
+                    class="img-fluid rounded object-fit-cover"
+                    alt="profile-square-2"
+                  />
+                </div>
+                <h3 class="text-white">Professional Summary</h3>
+                <p class="text-white">
+                  Driven software architect with expertise in developing
+                  scalable, high-performance enterprise solutions. Passionate
+                  about leveraging cutting-edge technologies to solve complex
+                  business challenges.
+                </p>
+                <h3 class="mt-4 text-white">Contact Information</h3>
+                <ul class="list-unstyled text-white">
+                  <li class="mb-3">
+                    <i class="bi bi-geo-alt"></i>742 Evergreen Terrace,
+                    Surat , Gujarat
+                  </li>
+                  <li class="mb-3">
+                    <i class="bi bi-envelope"></i>contact@example.com
+                  </li>
+                  <li class="mb-3">
+                    <i class="bi bi-phone"></i>+91 9107656786
+                  </li>
+                  <li class="mb-3">
+                    <i class="bi bi-linkedin"></i>linkedin.com/in/example
+                  </li>
+                </ul>
+                <div class="technical-skill text-white mt-4">
+                  <h3>Technical Skills</h3>
+                  <div class="skill-item mb-4">
+                    <div class="d-flex justify-content-between">
+                      <span>Web Development</span>
+                      <span>95%</span>
+                    </div>
+                    <div class="progress mt-2">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 95%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="skill-item mb-4">
+                    <div class="d-flex justify-content-between">
+                      <span>UI/UX Design</span>
+                      <span>85%</span>
+                    </div>
+                    <div class="progress mt-2">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 85%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="skill-item mb-4">
+                    <div class="d-flex justify-content-between">
+                      <span>Cloud Architecture</span>
+                      <span>90%</span>
+                    </div>
+                    <div class="progress mt-2">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 90%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="skill-item mb-4">
+                    <div class="d-flex justify-content-between">
+                      <span>Project Management</span>
+                      <span>80%</span>
+                    </div>
+                    <div class="progress mt-2">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 80%"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 ps-4 ps-lg-5">
+              <div class="resume-content mt-4 mt-lg-0">
+                <h3 class="text-white mb-4">
+                  <i class="bi bi-briefcase me-2"></i>
+                  Professional Experience
+                </h3>
+                <div class="resume-item ps-4 position-relative">
+                  <h4 class="text-white mb-2">Senior Software Architect</h4>
+                  <h5 class="mb-2 fs-6">2022 - Present</h5>
+                  <p class="text-white">
+                    <i class="bi bi-building me-2"></i>
+                    Tech Innovations Inc.
+                  </p>
+                  <ul>
+                    <li class="text-white mb-2">
+                      Lead the architectural design and implementation of
+                      enterprise-scale applications
+                    </li>
+                    <li class="text-white mb-2">
+                      Mentor team of 12 developers and establish technical best
+                      practices
+                    </li>
+                    <li class="text-white mb-2">
+                      Drive adoption of microservices architecture and
+                      cloud-native solutions
+                    </li>
+                    <li class="text-white mb-2">
+                      Reduce system downtime by 75% through improved
+                      architecture and monitoring
+                    </li>
+                  </ul>
+                </div>
+                <div class="resume-item ps-4 position-relative">
+                  <h4 class="text-white mb-2">Lead Developer</h4>
+                  <h5 class="mb-2 fs-6">2019 - 2022</h5>
+                  <p class="text-white">
+                    <i class="bi bi-building me-2"></i>
+                    Digital Solutions Corp.
+                  </p>
+                  <ul>
+                    <li class="text-white mb-2">
+                      Spearheaded development of company's flagship product
+                      reaching 1M+ users
+                    </li>
+                    <li class="text-white mb-2">
+                      Implemented CI/CD pipeline reducing deployment time by 60%
+                    </li>
+                    <li class="text-white mb-2">
+                      Managed team of 8 developers across multiple projects
+                    </li>
+                    <li class="text-white mb-2">
+                      Increased code test coverage from 45% to 90%
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="resume-content">
+                <h3 class="text-white mb-4">
+                  <i class="bi bi-mortarboard me-2"></i>
+                  Education
+                </h3>
+                <div class="resume-item ps-4 position-relative">
+                  <h4 class="text-white mb-2">
+                    Master of Science in Computer Science
+                  </h4>
+                  <h5 class="mb-2 fs-6">2017 - 2019</h5>
+                  <p class="text-white">
+                    <i class="bi bi-building me-2"></i>
+                    Stanford University
+                  </p>
+                  <p class="text-white mb-0">
+                    Specialized in Artificial Intelligence and Machine Learning.
+                    Graduated with honors.
+                  </p>
+                </div>
+                <div class="resume-item ps-4 position-relative">
+                  <h4 class="text-white mb-2">
+                    Bachelor of Science in Software Engineering
+                  </h4>
+                  <h5 class="mb-2 fs-6">2013 - 2017</h5>
+                  <p class="text-white">
+                    <i class="bi bi-building me-2"></i>
+                    MIT
+                  </p>
+                  <p class="text-white mb-0">
+                    Dean's List all semesters. Led university's coding club.
+                  </p>
+                </div>
+              </div>
+              <div class="resume-content">
+                <h3 class="text-white mb-4">
+                  <i class="bi bi-award me-2"></i>
+                  Certifications
+                </h3>
+                <div class="resume-item ps-4 position-relative">
+                  <h4 class="text-white mb-2">
+                    AWS Certified Solutions Architect - Professional
+                  </h4>
+                  <h5 class="mb-2 fs-6">2023</h5>
+                </div>
+                <div class="resume-item ps-4 position-relative">
+                  <h4 class="text-white mb-2">
+                    Google Cloud Professional Architect
+                  </h4>
+                  <h5 class="mb-2 fs-6">2022</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Resume Section End -->
+
+      <!-- Portfolio Section Start -->
+      <section id="portfolio" class="portfolio py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="portfolio-header text-center text-white pb-5">
+                <h2 class="fw-bold position-relative">Portfolio</h2>
+                <p class="mb-0">
+                  Magnam dolores commodi suscipit. Necessitatibus eius
+                  consequatur ex aliquid fuga eum quidem. Sit sint consectetur
+                  velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit
+                  suscipit alias ea. Quia fugiat sit in iste officiis commodi
+                  quidem hic quas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="filters-wrapper">
+                <ul
+                  class="portfolio-filters nav flex-column p-0 m-0 list-unstyled"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link active" href="https://github.com/Dev-Shivam-05" target="_blank"
+                      >All Projects</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/Dev-Shivam-05" target="_blank"
+                      >Photography</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/Dev-Shivam-05" target="_blank">Design</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/Dev-Shivam-05" target="_blank">Automotive</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/Dev-Shivam-05" target="_blank">Nature</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-9">
+              <div class="row gy-4">
+                <div class="col-md-6 col-lg-6">
+                  <div
+                    class="portfolio-wrap position-relative overflow-hidden h-100"
+                  >
+                    <img
+                      src="./assest/images/portfolio-image-1.webp"
+                      class="img-fluid w-100 object-fit-cover"
+                      alt="portfolio-image-1"
+                    />
+                    <div
+                      class="portfolio-info position-absolute bottom-0 start-0 end-0 z-3"
+                    >
+                      <div class="portfolio-content">
+                        <span class="d-inline-block text-uppercase"
+                          >Photography</span
+                        >
+                        <h4>Capturing Moments</h4>
+                        <div class="portfolio-links d-flex gap-3 mb-3">
+                          <a
+                            href="https://github.com/Dev-Shivam-05" target="_blank"
+                            class="d-flex align-items-center justify-content-center rounded-circle"
+                            ><i class="bi bi-plus-lg"></i
+                          ></a>
+                          <a
+                            href="https://github.com/Dev-Shivam-05" target="_blank"
+                            class="d-flex align-items-center justify-content-center rounded-circle"
+                            ><i class="bi bi-arrow-right"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div
+                    class="portfolio-wrap position-relative overflow-hidden h-100"
+                  >
+                    <img
+                      src="./assest/images/portfolio-2.webp"
+                      class="img-fluid w-100 object-fit-cover"
+                      alt="portfolio-image-2"
+                    />
+                    <div
+                      class="portfolio-info position-absolute bottom-0 start-0 end-0 z-3"
+                    >
+                      <div class="portfolio-content">
+                        <span class="d-inline-block text-uppercase"
+                          >Web Design</span
+                        >
+                        <h4>WoodCraft Design</h4>
+                        <div class="portfolio-links d-flex gap-3 mb-3">
+                          <a
+                            href="https://github.com/Dev-Shivam-05" target="_blank"
+                            class="d-flex align-items-center justify-content-center rounded-circle"
+                            ><i class="bi bi-plus-lg"></i
+                          ></a>
+                          <a
+                            href="https://github.com/Dev-Shivam-05" target="_blank"
+                            class="d-flex align-items-center justify-content-center rounded-circle"
+                            ><i class="bi bi-arrow-right"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div
+                    class="portfolio-wrap position-relative overflow-hidden h-100"
+                  >
+                    <img
+                      src="./assest/images/portfolio-image-2.webp"
+                      class="img-fluid w-100 object-fit-cover"
+                      alt="portfolio-image-2"
+                    />
+                    <div
+                      class="portfolio-info position-absolute bottom-0 start-0 end-0 z-3"
+                    >
+                      <div class="portfolio-content">
+                        <span class="d-inline-block text-uppercase"
+                          >Automotive</span
+                        >
+                        <h4>Classic Beauty</h4>
+                        <div class="portfolio-links d-flex gap-3 mb-3">
+                          <a
+                            href="https://github.com/Dev-Shivam-05" target="_blank"
+                            class="d-flex align-items-center justify-content-center rounded-circle"
+                            ><i class="bi bi-plus-lg"></i
+                          ></a>
+                          <a
+                            href="https://github.com/Dev-Shivam-05" target="_blank"
+                            class="d-flex align-items-center justify-content-center rounded-circle"
+                            ><i class="bi bi-arrow-right"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div
+                    class="portfolio-wrap position-relative overflow-hidden h-100"
+                  >
+                    <img
+                      src="./assest/images/portfolio-image-4.webp"
+                      class="img-fluid w-100 object-fit-cover"
+                      alt="portfolio-image-4"
+                    />
+                    <div
+                      class="portfolio-info position-absolute bottom-0 start-0 end-0 z-3"
+                    >
+                      <div class="portfolio-content">
+                        <span class="d-inline-block text-uppercase"
+                          >Nature</span
+                        >
+                        <h4>Natural Growth</h4>
+                        <div class="portfolio-links d-flex gap-3 mb-3">
+                          <a
+                            href="https://github.com/Dev-Shivam-05" target="_blank"
+                            class="d-flex align-items-center justify-content-center rounded-circle"
+                            ><i class="bi bi-plus-lg"></i
+                          ></a>
+                          <a
+                            href="https://github.com/Dev-Shivam-05" target="_blank"
+                            class="d-flex align-items-center justify-content-center rounded-circle"
+                            ><i class="bi bi-arrow-right"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div
+                    class="portfolio-wrap position-relative overflow-hidden h-100"
+                  >
+                    <img
+                      src="./assest/images/portfolio-5.webp"
+                      class="img-fluid w-100 object-fit-cover"
+                      alt="portfolio-image-5"
+                    />
+                    <div
+                      class="portfolio-info position-absolute bottom-0 start-0 end-0 z-3"
+                    >
+                      <div class="portfolio-content">
+                        <span class="d-inline-block text-uppercase"
+                          >Photography</span
+                        >
+                        <h4>Urban Stories</h4>
+                        <div class="portfolio-links d-flex gap-3 mb-3">
+                          <a
+                            href="https://github.com/Dev-Shivam-05" target="_blank"
+                            class="d-flex align-items-center justify-content-center rounded-circle"
+                            ><i class="bi bi-plus-lg"></i
+                          ></a>
+                          <a
+                            href="https://github.com/Dev-Shivam-05" target="_blank"
+                            class="d-flex align-items-center justify-content-center rounded-circle"
+                            ><i class="bi bi-arrow-right"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div
+                    class="portfolio-wrap position-relative overflow-hidden h-100"
+                  >
+                    <img
+                      src="./assest/images/portfolio-6.webp"
+                      class="img-fluid w-100 object-fit-cover"
+                      alt="portfolio-image-"
+                    />
+                    <div
+                      class="portfolio-info position-absolute bottom-0 start-0 end-0 z-3"
+                    >
+                      <div class="portfolio-content">
+                        <span class="d-inline-block text-uppercase"
+                          >Web Design</span
+                        >
+                        <h4>Digital Experience</h4>
+                        <div class="portfolio-links d-flex gap-3 mb-3">
+                          <a
+                            href="https://github.com/Dev-Shivam-05" target="_blank"
+                            class="d-flex align-items-center justify-content-center rounded-circle"
+                            ><i class="bi bi-plus-lg"></i
+                          ></a>
+                          <a
+                            href="https://github.com/Dev-Shivam-05" target="_blank"
+                            class="d-flex align-items-center justify-content-center rounded-circle"
+                            ><i class="bi bi-arrow-right"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio Section End -->
+
+      <!-- Services Section Start -->
+      <section id="services" class="services py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="services-header text-center text-white pb-5">
+                <h2 class="fw-bold position-relative">Services</h2>
+                <p class="mb-0">
+                  Necessitatibus eius consequatur ex aliquid fuga eum quidem
+                  sint consectetur velit
+                </p>
+              </div>
+              <div class="services-content">
+                <div class="row align-items-center">
+                  <div class="col-lg-8 col-sm-12">
+                    <div class="service-intro">
+                      <h2 class="text-white mb-0">
+                        <div>Innovative business</div>
+                        <div>
+                          <span>performance solutions</span>
+                        </div>
+                      </h2>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-12">
+                    <div class="service-summary">
+                      <p class="text-white">
+                        We integrate forward-thinking strategies, creative
+                        approaches, and state-of-the-art technologies to deliver
+                        exceptional customer experiences that drive growth and
+                        engage target markets.
+                      </p>
+                      <a
+                        href="https://github.com/Dev-Shivam-05" target="_blank"
+                        class="btn d-inline-flex align-items-center"
+                      >
+                        View All Services
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                  <div class="service-card position-relative z-1">
+                    <div
+                      class="service-icon d-inline-flex align-items-center justify-content-center"
+                    >
+                      <i class="bi bi-palette"></i>
+                    </div>
+                    <a
+                      href="https://github.com/Dev-Shivam-05" target="_blank"
+                      class="card-action d-flex justify-content-center align-items-center rounded-circle position-absolute top-0 end-0"
+                    >
+                      <i class="bi bi-arrow-up-right"></i>
+                    </a>
+                    <h3 class="text-white">
+                      <a
+                        href="https://github.com/Dev-Shivam-05" target="_blank"
+                        class="text-white text-decoration-none"
+                      >
+                        Creative
+                        <span class="d-block">branding</span>
+                      </a>
+                    </h3>
+                    <p class="text-white mb-0">
+                      Nulla facilisi. Maecenas eget magna neque. Suspendisse
+                      potenti. Curabitur eleifend nisi non magna vulputate, vel
+                      condimentum libero tempus. Proin consectetur feugiat diam.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="service-card position-relative z-1">
+                    <div
+                      class="service-icon d-inline-flex align-items-center justify-content-center"
+                    >
+                      <i class="bi bi-gem"></i>
+                    </div>
+                    <a
+                      href="https://github.com/Dev-Shivam-05" target="_blank"
+                      class="card-action d-flex justify-content-center align-items-center rounded-circle position-absolute top-0 end-0"
+                    >
+                      <i class="bi bi-arrow-up-right"></i>
+                    </a>
+                    <h3 class="text-white">
+                      <a
+                        href="https://github.com/Dev-Shivam-05" target="_blank"
+                        class="text-white text-decoration-none"
+                      >
+                        Design
+                        <span class="d-block">systems</span>
+                      </a>
+                    </h3>
+                    <p class="text-white mb-0">
+                      Praesent euismod varius tellus, vel bibendum nunc interdum
+                      at. Donec vehicula diam vel metus venenatis convallis.
+                      Aliquam erat volutpat. Etiam viverra magna sit amet.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="service-card position-relative z-1">
+                    <div
+                      class="service-icon d-inline-flex align-items-center justify-content-center"
+                    >
+                      <i class="bi bi-megaphone"></i>
+                    </div>
+                    <a
+                      href="https://github.com/Dev-Shivam-05" target="_blank"
+                      class="card-action d-flex justify-content-center align-items-center rounded-circle position-absolute top-0 end-0"
+                    >
+                      <i class="bi bi-arrow-up-right"></i>
+                    </a>
+                    <h3 class="text-white">
+                      <a
+                        href="https://github.com/Dev-Shivam-05" target="_blank"
+                        class="text-white text-decoration-none"
+                      >
+                        Marketing
+                        <span class="d-block">strategies</span>
+                      </a>
+                    </h3>
+                    <p class="text-white mb-0">
+                      Vivamus tempor velit id magna dictum, sed fermentum nisi
+                      faucibus. Integer nec pretium sapien. Fusce tincidunt
+                      ligula et purus consequat, ac pellentesque nulla eleifend.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="service-card position-relative z-1">
+                    <div
+                      class="service-icon d-inline-flex align-items-center justify-content-center"
+                    >
+                      <i class="bi bi-code-slash"></i>
+                    </div>
+                    <a
+                      href="https://github.com/Dev-Shivam-05" target="_blank"
+                      class="card-action d-flex justify-content-center align-items-center rounded-circle position-absolute top-0 end-0"
+                    >
+                      <i class="bi bi-arrow-up-right"></i>
+                    </a>
+                    <h3 class="text-white">
+                      <a
+                        href="https://github.com/Dev-Shivam-05" target="_blank"
+                        class="text-white text-decoration-none"
+                      >
+                        Digital
+                        <span class="d-block">platforms</span>
+                      </a>
+                    </h3>
+                    <p class="text-white mb-0">
+                      Cras fermentum odio eu feugiat malesuada. Vestibulum ante
+                      ipsum primis in faucibus orci luctus et accumsan cursus.
+                      Morbi placerat nulla vel nunc viverra accumsan.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="service-card position-relative z-1">
+                    <div
+                      class="service-icon d-inline-flex align-items-center justify-content-center"
+                    >
+                      <i class="bi bi-graph-up"></i>
+                    </div>
+                    <a
+                      href="https://github.com/Dev-Shivam-05" target="_blank"
+                      class="card-action d-flex justify-content-center align-items-center rounded-circle position-absolute top-0 end-0"
+                    >
+                      <i class="bi bi-arrow-up-right"></i>
+                    </a>
+                    <h3 class="text-white">
+                      <a
+                        href="https://github.com/Dev-Shivam-05" target="_blank"
+                        class="text-white text-decoration-none"
+                      >
+                        Growth
+                        <span class="d-block">acceleration</span>
+                      </a>
+                    </h3>
+                    <p class="text-white mb-0">
+                      Aenean vel augue vel nisi bibendum posuere. Phasellus in
+                      lacus quis urna sodales dignissim. Duis aliquam libero
+                      eget risus facilisis. Quisque eget libero vel nisl
+                      fringilla.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="service-card position-relative z-1">
+                    <div
+                      class="service-icon d-inline-flex align-items-center justify-content-center"
+                    >
+                      <i class="bi bi-camera-video"></i>
+                    </div>
+                    <a
+                      href="https://github.com/Dev-Shivam-05" target="_blank"
+                      class="card-action d-flex justify-content-center align-items-center rounded-circle position-absolute top-0 end-0"
+                    >
+                      <i class="bi bi-arrow-up-right"></i>
+                    </a>
+                    <h3 class="text-white">
+                      <a
+                        href="https://github.com/Dev-Shivam-05" target="_blank"
+                        class="text-white text-decoration-none"
+                      >
+                        Media
+                        <span class="d-block">solutions</span>
+                      </a>
+                    </h3>
+                    <p class="text-white mb-0">
+                      Etiam efficitur lacus in diam finibus, nec ultrices est
+                      sagittis. Maecenas elementum magna sed risus faucibus, nec
+                      commodo purus facilisis. Vestibulum accumsan magna.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services Section End -->
+
+      <!-- Testimonials Section Start -->
+      <section class="testimonial py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="testimonial-header text-center text-white pb-5">
+                <h2 class="fw-bold position-relative">Testimonials</h2>
+                <p class="mb-0">
+                  Necessitatibus eius consequatur ex aliquid fuga eum quidem
+                  sint consectetur velit
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-summary position-relative">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="testimonial-item mb-4 mb-lg-0">
+                  <div class="testimonial-content position-relative">
+                    <div
+                      class="quote-pattern d-flex align-items-center justify-content-center rounded-circle"
+                    >
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <p class="text-white position-relative">
+                      Implementing innovative strategies has revolutionized our
+                      approach to market challenges and competitive positioning.
+                    </p>
+                    <div class="client-info d-flex align-items-center">
+                      <div
+                        class="client-img rounded-circle overflow-hidden flex-shrink-0"
+                      >
+                        <img
+                          src="./assest/images/testimonial-image-1.png"
+                          alt="person-f-7"
+                          class="w-100 h-100 object-fit-cover"
+                        />
+                      </div>
+                      <div class="client-detail">
+                        <h3 class="text-white">Rachel Bennett</h3>
+                        <span>Strategy Director</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="testimonial-item mt-0 mt-md-4 mt-lg-5 mb-4 mb-lg-0">
+                  <div class="testimonial-content position-relative highlight">
+                    <div
+                      class="quote-pattern d-flex align-items-center justify-content-center rounded-circle"
+                    >
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <p class="text-white position-relative">
+                      Exceptional service delivery and innovative solutions have
+                      transformed our business operations, leading to remarkable
+                      growth and enhanced customer satisfaction across all
+                      touchpoints.
+                    </p>
+                    <div class="client-info d-flex align-items-center">
+                      <div
+                        class="client-img rounded-circle overflow-hidden flex-shrink-0"
+                      >
+                        <img
+                          src="./assest/images/testimonial-image-2.png"
+                          alt="testimonial-image-2"
+                          class="w-100 h-100 object-fit-cover"
+                        />
+                      </div>
+                      <div class="client-detail">
+                        <h3 class="text-white">Daniel Morgan</h3>
+                        <span>Chief Innovation Officer</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="testimonial-item mt-0 mt-md-2 mt-lg-3 mb-4 mb-lg-0">
+                  <div class="testimonial-content position-relative">
+                    <div
+                      class="quote-pattern d-flex align-items-center justify-content-center rounded-circle"
+                    >
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <p class="text-white position-relative">
+                      Strategic partnership has enabled seamless digital
+                      transformation and operational excellence.
+                    </p>
+                    <div class="client-info d-flex align-items-center">
+                      <div
+                        class="client-img rounded-circle overflow-hidden flex-shrink-0"
+                      >
+                        <img
+                          src="./assest/images/testimonial-image-3.png"
+                          alt="testimonial-image-3"
+                          class="w-100 h-100 object-fit-cover"
+                        />
+                      </div>
+                      <div class="client-detail">
+                        <h3 class="text-white">Emma Thompson</h3>
+                        <span>Digital Lead</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="testimonial-item mb-4 mb-lg-0">
+                  <div class="testimonial-content position-relative">
+                    <div
+                      class="quote-pattern d-flex align-items-center justify-content-center rounded-circle"
+                    >
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <p class="text-white position-relative">
+                      Professional expertise and dedication have significantly
+                      improved our project delivery timelines and quality
+                      metrics.
+                    </p>
+                    <div class="client-info d-flex align-items-center">
+                      <div
+                        class="client-img rounded-circle overflow-hidden flex-shrink-0"
+                      >
+                        <img
+                          src="./assest/images/testimonial-image-4.png"
+                          alt="testimonial-image-4"
+                          class="w-100 h-100 object-fit-cover"
+                        />
+                      </div>
+                      <div class="client-detail">
+                        <h3 class="text-white">Christopher Lee</h3>
+                        <span>Technical Director</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="testimonial-item mt-0 mt-md-4 mt-lg-5 mb-4 mb-lg-0">
+                  <div class="testimonial-content position-relative highlight">
+                    <div
+                      class="quote-pattern d-flex align-items-center justify-content-center rounded-circle"
+                    >
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <p class="text-white position-relative">
+                      Collaborative approach and industry expertise have
+                      revolutionized our product development cycle, resulting in
+                      faster time-to-market and increased customer engagement
+                      levels.
+                    </p>
+                    <div class="client-info d-flex align-items-center">
+                      <div
+                        class="client-img rounded-circle overflow-hidden flex-shrink-0"
+                      >
+                        <img
+                          src="./assest/images/testimonial-image-5.png"
+                          alt="testimonial-image-5"
+                          class="w-100 h-100 object-fit-cover"
+                        />
+                      </div>
+                      <div class="client-detail">
+                        <h3 class="text-white">Olivia Carter</h3>
+                        <span>Product Manager</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="testimonial-item mt-0 mt-md-2 mt-lg-3 mb-4 mb-lg-0">
+                  <div class="testimonial-content position-relative">
+                    <div
+                      class="quote-pattern d-flex align-items-center justify-content-center rounded-circle"
+                    >
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <p class="text-white position-relative">
+                      Innovative approach to user experience design has
+                      significantly enhanced our platform's engagement metrics
+                      and customer retention rates.
+                    </p>
+                    <div class="client-info d-flex align-items-center">
+                      <div
+                        class="client-img rounded-circle overflow-hidden flex-shrink-0"
+                      >
+                        <img
+                          src="./assest/images/testimonial-image-6.png"
+                          alt="testimonial-image-6"
+                          class="w-100 h-100 object-fit-cover"
+                        />
+                      </div>
+                      <div class="client-detail">
+                        <h3 class="text-white">Nathan Brooks</h3>
+                        <span>UX Director</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonials Section End -->
+
+      <!-- Contact Section Start -->
+      <section id="contact" class="contact py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="contact-header text-center text-white pb-5">
+                <h2 class="fw-bold position-relative">Contact</h2>
+                <p class="mb-0">
+                  Necessitatibus eius consequatur ex aliquid fuga eum quidem
+                  sint consectetur velit
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row g-4 g-lg-5">
+            <div class="col-lg-5">
+              <div class="info-box">
+                <h3 class="mb-3">Contact Info</h3>
+                <p>
+                  Praesent sapien massa, convallis a pellentesque nec, egestas
+                  non nisi. Vestibulum ante ipsum primis.
+                </p>
+                <div class="info-item d-flex">
+                  <div
+                    class="icon-box rounded-circle d-flex align-items-center justify-content-center flex-shrink-0"
+                  >
+                    <i class="bi bi-geo-alt"></i>
+                  </div>
+                  <div class="info-content">
+                    <h4 class="mb-2">Our Location</h4>
+                    <p>Surat</p>
+                    <p>Gujarat, 396445</p>
+                  </div>
+                </div>
+                <div class="info-item d-flex">
+                  <div
+                    class="icon-box rounded-circle d-flex align-items-center justify-content-center flex-shrink-0"
+                  >
+                    <i class="bi bi-telephone"></i>
+                  </div>
+                  <div class="info-content">
+                    <h4 class="mb-2">Phone Number</h4>
+                    <p>+91 9126785438
+                    <p>+91 9126785438
+                  </div>
+                </div>
+                <div class="info-item d-flex">
+                  <div
+                    class="icon-box rounded-circle d-flex align-items-center justify-content-center flex-shrink-0"
+                  >
+                    <i class="bi bi-envelope"></i>
+                  </div>
+                  <div class="info-content">
+                    <h4 class="mb-2">Email Address</h4>
+                    <a href="" class="text-decoration-none text-black">sahabirry@gmail.com</a>
+                    <a href="" class="text-decoration-none text-black">shivambhadoriya1605@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="contact-form">
+                <h3 class="text-white">Get In Touch</h3>
+                <p>
+                  Praesent sapien massa, convallis a pellentesque nec, egestas
+                  non nisi. Vestibulum ante ipsum primis.
+                </p>
+                <form action="https://github.com/Dev-Shivam-05" target="_blank" method="post">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <input
+                        type="email"
+                        name="email"
+                        class="form-control"
+                        placeholder="Your Email"
+                        required
+                      />
+                    </div>
+                    <div class="col-12">
+                      <input
+                        type="text"
+                        name="subject"
+                        class="form-control"
+                        placeholder="Subject"
+                        required
+                      />
+                    </div>
+                    <div class="col-12">
+                      <textarea
+                        name="msg"
+                        class="form-control"
+                        rows="6"
+                        placeholder="Message"
+                        required
+                      ></textarea>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button
+                        type="submit"
+                        class="btn d-inline-flex align-items-center"
+                      >
+                        Send Meassage
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section End -->
+    </main>
+    <!-- Main Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="position-relative">
+      <div class="container">
+        <div class="copyright text-center">
+          <p>
+            © <span>Copyright</span><strong class="px-1">iPortfolio</strong
+            ><span>All Rights Reserved</span>
+          </p>
+        </div>
+        <div class="credits">
+          Designed by <a href="https://github.com/Dev-Shivam-05" target="_blank">Pooja Patel</a>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center active"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+    <!-- Footer Section End -->
+    <script src="./assest/js/bootstrap.bundle.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        let typed_items = document
+          .querySelector(".typed")
+          .getAttribute("data-typed-items")
+          .split(",");
+        new Typed(".typed", {
+          strings: typed_items.map((item) => item.trim()),
+          typeSpeed: 140,
+          backSpeed: 50,
+          backDelay: 2000,
+          loop: true,
+        });
+      });
+    </script>
+  </body>
+</html>
